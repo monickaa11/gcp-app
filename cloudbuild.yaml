@@ -29,3 +29,6 @@ steps:
 
 images:
 - '${_IMAGE_NAME}:${_TAG_NAME}'  # Reference the dynamic image name and tag.
+
+options:
+  logging: NONE
