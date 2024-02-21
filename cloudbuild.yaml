@@ -2,8 +2,8 @@
 # Customize these values as needed.
 substitutions:
   _PROJECT_ID: 'analytical-park-412708'  # Replace with your actual project ID.
-  _IMAGE_NAME: 'gcr.io/${PROJECT_ID}/my-app'
-  _TAG_NAME: '0.0.1'
+  _IMAGE_NAME: 'gcr.io/${_PROJECT_ID}/my-app'
+  _TAG_NAME: '0.0.4'
   _REGION: 'us-central1'  # Replace with your preferred region.
   _SERVICE_NAME: 'my-cloud-run-service'  # Replace with your preferred Cloud Run service name.
 
